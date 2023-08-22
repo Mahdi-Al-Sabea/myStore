@@ -1,0 +1,426 @@
+.logo-color{
+    color: brown;
+}
+
+
+.search-btn{
+    color: brown;
+    border-color:brown;
+}
+
+.home:hover{
+    background-color: brown;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.about-us:hover{
+    background-color: brown;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.brand:hover{
+    background-color: brown;
+    border-radius: 5px;
+    transition: 0.5s;
+
+
+}
+
+
+
+
+.navbar{
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 10000;
+    background-color: gainsboro;
+
+}
+
+
+
+
+.card{
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+
+/* featured */
+.mainC .card{
+    border: 0px;
+    background-color: transparent;
+}
+
+
+
+
+.mainC .card-img-top{
+border-radius: 300px;
+border: 1px solid gray;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+
+
+.mainC .card-title{
+    font-size: .9rem;
+    width: 5rem;
+   height: 4rem;
+  
+   overflow: hidden; /* Hides any overflowing content */
+   text-overflow: ellipsis;
+}
+
+
+
+.mainC .card:hover{
+    scale: 1.1;
+
+    background-color: brown;
+
+}
+/* featured */
+
+.main-img{
+    padding-top: 10px;
+    
+}
+
+/* items */
+
+.items-header{
+    text-align: center;
+    margin-top: 2em;
+
+}
+
+
+.filter{
+position: relative;
+top: 10px;
+padding: .5rem;
+background-color: brown;
+border-radius: 4px;
+}
+
+.items{
+    border-top: 2px solid gray;
+}
+
+.items .card:hover{
+    background-color: brown;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+
+
+.card-title{
+    font-size: .9rem;
+    overflow: scroll;
+   height: 4rem;
+
+}
+
+
+
+
+
+.items .card img{
+    height: 14rem;
+}
+
+
+
+
+
+.search-container{
+    z-index: 9999;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.352);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.search-window{
+border-radius: 5px;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 85%;
+height: 70%;
+background-color: white;
+overflow: scroll;
+
+}
+
+
+.search-item{
+  
+    height: 6rem;
+    border-bottom: 1px solid black;
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+
+.search-item:hover{
+    background-color: rgba(35, 38, 38, 0.405);
+}
+
+.search-item img{
+    width: 70px;
+    height: 5rem;
+    position: relative;
+    left: 3rem;
+}
+
+
+
+.search-inputText{
+    color: brown;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sign-in-container{
+    display: none;
+    z-index: 9999;
+
+    background-color: rgba(0, 0, 0, 0.352);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.sign-in-window{
+    border-radius: 5px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    height: 85%;
+    background-color: white;
+    margin-top: 2rem;
+
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.submit{
+    border: 1px solid white;
+    color: aliceblue;
+    border-radius: 3px;
+    background-color: brown;
+}
+
+.form-item{
+margin-top: 2rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*search bar manipulation from bootstrap*/
+
+@media (min-width: 992px){
+    .search-mid-small {
+        margin-right: 0.5rem!important;
+        display:none;
+
+    }
+
+}
+
+
+
+@media (max-width: 992px){
+
+    
+    .search-bar-container {
+        display: none;
+        margin-bottom: 0.5rem!important;
+      
+    }
+    
+
+    
+}
+
+
+@media (min-width: 576px) and (max-width: 992px) {
+    .search-mid-small {
+        position: absolute;
+        left: 120px;
+        width: 14rem;
+        margin-right: 0.5rem!important;
+    }
+}
+/*search bar manipulation from bootstrap*/
+
+
+
+
+
+
+
+@media (max-width:576px){
+
+.search-inputText{
+    font-size: 10px;
+    
+}
+
+
+}
+
+
+@media (min-width:992px){
+
+    .search-inputText{
+        font-size: 25px;
+      
+    }
+    
+    
+    }
+
+
+
+
+
+@media (max-width:650px){
+    .sign-in-window{
+        width: 80%;
+    }
+}
+
+
+
+/* items*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* item popup
+
+#item{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.525);
+    display: none;
+    
+    
+}
+
+
+#item #details{
+   
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    background-color:white;
+    overflow: scroll;
+
+
+}
+
+
+.details .properties{
+border-top: 1px solid gray;
+}
+
+
+.details .addToCart{
+   
+    width: 70px;
+    background-color: brown;
+}
+
+.details .close{
+    height: 15px;
+    width: 15px;
+
+    background-image: url(../mystore2/close.png);
+    background-size: cover;
+}
+
+@media(max-width: 768px){
+.item-img{
+width: 350px;
+}
+}
+
+
+ item popup*/
