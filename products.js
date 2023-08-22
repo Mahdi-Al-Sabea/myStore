@@ -16,7 +16,7 @@ const products = [
     },
     {
       id: "15b6fc6f-327a-4ec4-896f-486349e85a3d",
-      image: "Chttps://raw.githubusercontent.com/Mahdi-Al-Sabea/myStore/main/productsintermediate-composite-basketball.jpg",
+      image: "Chttps://raw.githubusercontent.com/Mahdi-Al-Sabea/myStore/main/products/intermediate-composite-basketball.jpg",
       name: "Intermediate Size Basketball",
       rating: {
         stars: 4,
